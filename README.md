@@ -16,7 +16,7 @@ You can try out the Wordle game live here: [Wordle Live Demo](https://wordleaish
 
 To get started with this project locally, follow these steps:
 
- 1. ### Clone the Repository:**
+ 1. ### Clone the Repository:
 
    * git clone https://github.com/aishasinha15/Wordle.git
 
