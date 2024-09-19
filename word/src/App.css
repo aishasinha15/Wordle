@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+  }
+  
+  nav{
+    height:70px;
+    width:100%;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav > h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:750px;
+    font-size:2rem;
+  }
+  
+  .grid{
+    height:500px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 80px;
+    gap:3px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .letter{
+    height:60px;
+    width:60px;
+    
+    margin:3px;
+    padding: 2px;
+    background-color: black;
+    color:white;
+    border:1px solid whitesmoke;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+  }
+  
+  .keyboard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    gap:4px;
+
+  }
+
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .key{
+    height:50px;
+    width:50px;
+    margin:3px;
+    padding: 2px;
+    background-color: grey;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: whitesmoke;
+
+  }
+
+  .key-big{
+    height:50px;
+    width:70px;
+    margin:2px;
+    padding: 2px;
+    background-color: grey;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: whitesmoke;
+  }
+
+  
+  .r-2{
+    margin-left: 25px;
+  }
+
+  .r-3{
+    margin-left: 10px;
+  }
+
+  #correct{
+    background-color: rgb(27, 149, 27);
+  }
+
+  #error{
+    background-color: #696161;
+  }
+
+  #almost{
+    background-color: rgba(216, 196, 14, 0.899);
+  }
+
+  #disabled{
+    background-color: #3a393c;
+  }
+
+  .gameOver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #333333;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 570px;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .gameOver h3 {
+    color: #d1d1d1;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .gameOver h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;
+  }
+  
+  .gameOver h3:last-child {
+    font-size: 1.25rem;
+    color: #a1a1a1;
+  }
+  
