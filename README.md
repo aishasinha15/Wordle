@@ -5,7 +5,6 @@ Welcome to the Wordle project! This is a web-based implementation of the popular
 ## Features
 
 - **Classic Wordle Gameplay:** Play the game as you would with the traditional version.
-- **Responsive Design:** Accessible and playable on various devices.
 - **Real-Time Feedback:** Immediate feedback on your guesses to help you figure out the word.
 
 ## Live Demo
