@@ -17,8 +17,8 @@ function App() {
     gameOver: false,
     guessedWord: false,
   });
-
   const [correctWord, setCorrectWord] = useState("");
+  const [guessedWords, setGuessedWords] = useState(new Set()); // New state to track guessed words
 
   useEffect(() => {
     generateWordSet().then(({ wordSet, todaysWord }) => {
@@ -44,7 +44,13 @@ function App() {
     }
     currWord = currWord.toLowerCase();
 
+    if (guessedWords.has(currWord)) {
+      toast.warning("You've already guessed this word!");
+      return;
+    }
+
     if (wordSet && wordSet.has && wordSet.has(currWord)) {
+      setGuessedWords(new Set(guessedWords).add(currWord));
       setCurrAttempt({ attempt: currAttempt.attempt + 1, letterPos: 0 });
 
       if (currWord === correctWord.toLowerCase()) {
