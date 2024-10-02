@@ -15,21 +15,21 @@ You can try out the Wordle game live here: [Wordle Live Demo](https://wordleaish
 
 To get started with this project locally, follow these steps:
 
- 1. ### Clone the Repository:
+ ### 1. Clone the Repository:
 
   ```bash
   git clone https://github.com/aishasinha15/Wordle.git
 ```
 
 
-2. ### Navigate into the Project Directory:
+ ### 2. Navigate into the Project Directory:
 
    ```bash
    cd Wordle
    cd word
    ```
 
-2. ### Install Dependencies:
+### 3. Install Dependencies:
 
   Install the necessary libraries to avoid errors. The project requires react-toastify and react-icons. Run:
   
@@ -38,7 +38,7 @@ To get started with this project locally, follow these steps:
   npm install react-toastify react-icons
  ```
 
-4. ### Start the Development Server:
+### 4. Start the Development Server:
 
    ```bash
    npm start
