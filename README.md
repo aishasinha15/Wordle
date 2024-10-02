@@ -17,24 +17,34 @@ To get started with this project locally, follow these steps:
 
  1. ### Clone the Repository:
 
-   * git clone https://github.com/aishasinha15/Wordle.git
+  ```bash
+  git clone https://github.com/aishasinha15/Wordle.git
+```
+
 
 2. ### Navigate into the Project Directory:
-   
-   * cd Wordle
-   * cd word
 
-3. ### Install Dependencies:
+   ```bash
+   cd Wordle
+   cd word
+   ```
+
+2. ### Install Dependencies:
 
   Install the necessary libraries to avoid errors. The project requires react-toastify and react-icons. Run:
-
-  * npm install
-  * npm install react-toastify react-icons
+  
+  ```bash
+  npm install
+  npm install react-toastify react-icons
+ ```
 
 4. ### Start the Development Server:
 
-   * npm start
-   Open your browser and navigate to http://localhost:3000 to view the project.
+   ```bash
+   npm start
+   ```
+
+  Open your browser and navigate to http://localhost:3000 to view the project.
 
 
 ## Scripts
